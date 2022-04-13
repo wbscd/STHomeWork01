@@ -8,7 +8,7 @@ int main()
 
 	while(cin>>a>>b)
 	{
-		cout<<a+b<<endl;
+		cout<<"Result:"<<a+b<<endl;
 	}
 
 	return 0;
