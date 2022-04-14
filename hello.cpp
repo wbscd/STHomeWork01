@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
 	int a,b;
-
-	while(cin>>a>>b)
+	
+	while(~scanf("%d%d",&a,&b))
 	{
-		cout<<"Result:"<<a+b<<endl;
+		printf("Result: %d\n",a+b);
 	}
-
+	
 	return 0;
 }
