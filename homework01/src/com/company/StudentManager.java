@@ -78,10 +78,10 @@ public class StudentManager {
                 System.out.print("请输入学生出生日期(格式为yyyy-mm-dd)：");
                 String birthday = in.nextLine();
                 System.out.print("请输入学生性别(0为女,1为男)：");
-                boolean gender = in.nextBoolean();
+                int gender = in.nextInt();
                 in.nextLine();
                 student.setBirthday(birthday);
-                student.setGender(gender);
+                student.setGender(gender==1);
                 student.setId(id);
                 return;
             }
